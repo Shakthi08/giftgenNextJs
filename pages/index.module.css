@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "ColfaxAI";
+  src: url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff2)
+      format("woff2"),
+    url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ColfaxAI";
+  src: url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff2) format("woff2"),
+    url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff) format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+.main,
+.main input {
+  font-size: 16px;
+  line-height: 24px;
+  color: #353740;
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+.main .icon {
+  width: 34px;
+}
+.main h3 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #202123;
+  margin: 16px 0 40px;
+}
+.main form {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+.main input[type="text"],
+.main input[type="number"],
+.main select {
+  padding: 12px 16px;
+  border: 1px solid #0d09ff;
+  border-radius: 20px;
+  margin-bottom: 12px;
+  margin-top: 4px;
+}
+.main ::placeholder {
+  color: #8e8ea0;
+  opacity: 1;
+}
+
+.main .card{
+  background-color: rgb(23, 221, 122);
+  border-radius: 22px;
+  height: 220px;
+  width: 300px;
+  text-align: center;
+  flex: content;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.main input[type="submit"] {
+  padding: 12px 0;
+  color: #fff;
+  background-color: #07ff5a;
+  border: none;
+  border-radius: 40px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.main p {
+  text-align: center;
+}
+
+.main .result {
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+.main .loading{
+  width: 10;
+}
+
